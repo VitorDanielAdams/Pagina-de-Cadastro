@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset='utf-8'>
+    <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+    <meta name='viewport' content='width=device-width, initial-scale=1'>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link href="style.css" rel="stylesheet">
+    <title>Tela de login </title>
+</head>
+
+<body>
+    <div class="container">
+        <div class="box">
+            <!--Form Login-->
+            <form id="form">
+                <div class="title">
+                    <span>Login</span>
+                </div>
+                <div class="input">
+                    <input value="" type="text" name="" placeholder="Usuário" id="user">
+                    <small></small>
+                </div>
+                <div class="input">
+                    <input type="password" name="" placeholder="Senha" id="password">
+                    <small></small>
+                    <span class="eye">
+                        <i class="fa fa-eye" aria-hidden="true" id="show" onclick="toggle()"></i>
+                        <i class="fa fa-eye-slash" aria-hidden="true" id="hide" onclick="toggle()"></i>
+                    </span>
+                </div>
+                <div class="check">
+                    <input type="checkbox" id="rem">
+                    <label for="rem">Lembrar-me</label>
+                </div>
+                <button type="submit">Entrar</button>
+                <div class="cad">
+                    <a>Ainda não tem uma conta? <a id="linkcad" href="cadastro.html">Cadastre-se.</a></a>
+                </div>
+            </form>
+        </div>
+    </div>
+    <script src="main.js"></script>
+</body>
+
+</html>
